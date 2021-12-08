@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/roundedcorner">
+
+    <TextView
+        android:id="@+id/titleOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Title"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/descriptionOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleOutput"
+        android:text="This is a sample description"
+        android:textColor="#8A7070" />
+
+    <TextView
+        android:id="@+id/timeOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionOutput"
+        android:gravity="end"
+        android:text="Jan 1 2021"
+        android:textColor="#8A7070" />
+</RelativeLayout>
